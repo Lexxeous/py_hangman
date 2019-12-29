@@ -5,7 +5,13 @@
 Title: py_hangman.py
 Author(s): Jonathan A. Gibson
 Description:
-  1.
+  This program is a simple game that is compatible with Python3. The game supports play for 1 and 2 or more players.
+  A text file (`words.txt`) is provided by default as a makeshift database for words and phrases that a user may need to guess.
+  If the user provides a text file as the second argument for this program, by default, the game will assume that there will only be 1 player,
+  choose a word or phrase at random from the file, and have the user try to guess the word or phrase.
+  If the user does not provide a text file as the second argument for this program, by default, the game will assume that there will be 2 or more players participating,
+  prompt 1 player to input a secret word or phrase, then prompt the rest of the players to guess.
+  The guessers must guess the correct word or phrase within 6 guesses to win.
 Goals:
   1. Remove the printing of the word array and the phrase.
   2. Store previous guesses so that the player is not punished twice for guessing the same wrong character twice, and print thier guesses with the scaffold.
@@ -24,13 +30,14 @@ import math
 import random
 import py_hangman_utils as phu
 
-#--------------------------------------------- Import Necessary Libraries --------------------------------------------#
+#---------------------------------------------- Define Main Functionality --------------------------------------------#
 
 def main():
   winner = False
   state = 0
   losing_state = 6
   places = ""
+  original = ""
   guesses = list()
 
   print("\nProgram Name:", sys.argv[0])
@@ -44,6 +51,7 @@ def main():
     print("Player 1, please provide a word or phrase for Player 2 to guess.")
     print("The word or phrase must not contain special characters or numbers but can be separated with spaces.\n")
     phrase = input("Word or phrase to guess: ").upper()
+    original = phrase
     l = len(phrase)
     sys.stdout.write("\033[F" + '*'*(math.floor(l/2)) + "HANGMAN WORD OR PHRASE HAS BEEN SUBMITTED" + '*'*(math.floor(l/2)) + '\n')
 
@@ -55,7 +63,7 @@ def main():
     # Generate random index and get the word from that index in lowercase
     random_idx = random.randint(0, len(word_arr) - 1)
     phrase = word_arr[random_idx].upper()
-    print(phrase)
+    original = phrase
 
   # Create a string of the same lenth of <phrase> out of just '_' for the <working> string
   for i in range(0, len(phrase)):
@@ -106,6 +114,7 @@ def main():
     print("The phrase was \"" + places + "\".")
     print("CONGRATS! YOU WIN!")
   else:
+    print("The phrase was \"" + original + "\".")
     print("Sorry, You Lose...")
     
 
