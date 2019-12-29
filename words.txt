@@ -1,49 +1,571 @@
-Awkward Awkward
-Bagpipes Bagpipes
-Banjo Banjo
-Bungler Awkward
-Croquet Bagpipes
-Crypt Banjo
-Dwarves Awkward
-Fervid Bagpipes
-Fishhook Banjo
-Fjord Awkward
-Gazebo Bagpipes
-Gypsy Banjo Awkward
-Haiku Bagpipes
-Haphazard Banjo
-Hyphen Awkward
-Ivory Bagpipes
-Jazzy Banjo
-Jiffy Awkward
-Jinx Bagpipes
-Jukebox Banjo
-Kayak Awkward
-Kiosk Bagpipes
-Klutz Banjo
-Memento Awkward
-Mystify Bagpipes
-Numbskull Banjo
-Ostracize Awkward
-Oxygen Bagpipes
-Pajama Banjo
-Phlegm Awkward
-Pixel Bagpipes
-Polka Banjo
-Quad Awkward
-Quip Bagpipes
-Rhythmic Banjo
-Rogue Awkward
-Sphinx Bagpipes
-Squawk Banjo
-Swivel Awkward
-Toady Bagpipes
-Twelfth Banjo
-Unzip Awkward
-Waxy Bagpipes
-Wildebeest Banjo
-Yacht Awkward
-Zealous Bagpipes
-Zigzag Banjo
-Zippy asdf
-Zombie asdf
+abruptly
+absurd
+abyss
+affix
+askew
+avenue
+awkward
+axiom
+azure
+bagpipes
+bandwagon
+banjo
+bayou
+beekeeper
+bikini
+blitz
+blizzard
+boggle
+bookworm
+boxcar
+boxful
+buckaroo
+buffalo
+buffoon
+buxom
+buzzard
+buzzing
+buzzwords
+caliph
+cobweb
+cockiness
+croquet
+crypt
+curacao
+cycle
+daiquiri
+dirndl
+disavow
+dizzying
+duplex
+dwarves
+embezzle
+equip
+espionage
+euouae
+exodus
+faking
+fishhook
+fixable
+fjord
+flapjack
+flopping
+fluffiness
+flyby
+foxglove
+frazzled
+frizzled
+fuchsia
+funny
+gabby
+galaxy
+galvanize
+gazebo
+giaour
+gizmo
+glowworm
+glyph
+gnarly
+gnostic
+gossip
+grogginess
+haiku
+haphazard
+hyphen
+iatrogenic
+icebox
+injury
+ivory
+ivy
+jackpot
+jaundice
+jawbreaker
+jaywalk
+jazziest
+jazzy
+jelly
+jigsaw
+jinx
+jiujitsu
+jockey
+jogging
+joking
+jovial
+joyful
+juicy
+jukebox
+jumbo
+kayak
+kazoo
+keyhole
+khaki
+kilobyte
+kiosk
+kitsch
+kiwifruit
+klutz
+knapsack
+larynx
+lengths
+lucky
+luxury
+lymph
+marquis
+matrix
+megahertz
+microwave
+mnemonic
+mystify
+naphtha
+nightclub
+nowadays
+numbskull
+nymph
+onyx
+ovary
+oxidize
+oxygen
+pajama
+peekaboo
+phlegm
+pixel
+pizazz
+pneumonia
+polka
+pshaw
+psyche
+puppy
+puzzling
+quartz
+queue
+quips
+quixotic
+quiz
+quizzes
+quorum
+razzmatazz
+rhubarb
+rhythm
+rickshaw
+schnapps
+scratch
+shiv
+snazzy
+sphinx
+spritz
+squawk
+staff
+strength
+strengths
+stretch
+stronghold
+stymied
+subway
+swivel
+syndrome
+thriftless
+thumbscrew
+topaz
+transcript
+transgress
+transplant
+triphthong
+twelfth
+twelfths
+unknown
+unworthy
+unzip
+uptown
+vaporize
+vixen
+vodka
+voodoo
+vortex
+voyeurism
+walkway
+waltz
+wave
+wavy
+waxy
+wellspring
+wheezy
+whiskey
+whizzing
+whomever
+wimpy
+witchcraft
+wizard
+woozy
+wristwatch
+wyvern
+xylophone
+yachtsman
+yippee
+yoked
+youthful
+yummy
+zephyr
+zigzag
+zigzagging
+zilch
+zipper
+zodiac
+zombie
+A Man Called Horse
+A Man For All Seasons
+A Portrait Of The Artist As A Young Man
+A View To A Kill
+A dog is a mans best friend
+A drowning man will clutch at a straw
+A good man is hard to find
+A hard man is good to find
+A man after my own heart
+A man among men
+A man who is his own lawyer has a fool for a client
+A man who is tired of London is tired of life
+A mans got to do what a mans got to do
+A mans man
+A woman without a man is like a fish without a bicycle
+Action Man
+Anchor man
+Angry young man
+Are you a man or a mouse
+Arms and the Man
+Ask the Man who Owns One
+At deaths door
+Baby Youre A Rich Man
+Back door man
+Badgered to death
+Ballad Of A Thin Man
+Be your own man
+Because I could not stop for death he kindly stopped for me
+Behind every great man theres a great woman
+Big man on campus
+Billion Dollar Man
+Bird Man
+Blue screen of death
+Bored to death
+Broken man
+Brown Eyes Handsome Man
+Brush with death
+Butter and egg man
+Cake or death
+Can I do you now sir
+Catch your death of cold
+Changed man
+Chasing tail
+Chicken Man
+Cinderella Man
+Clothes maketh the man
+Come on women man the factories
+Cometh the hour cometh the man
+Company man
+Cot death
+Cowards may die many times before their death
+Dance of death
+Dead Man Walking
+Dead man walking
+Death In Venice
+Death On The Nile
+Death On The Orient Express
+Death Valley
+Death by PowerPoint
+Death by a thousand cuts
+Death by chocolate
+Death by committee
+Death by misadventure
+Death is natures way of telling you to slow down
+Death metal
+Death of a Salesman
+Death trap
+Dice with death
+Die a death
+Dirty old man
+Do Right Woman Do Right Man
+Do something to death
+Dog bites man
+Dont have a cow man
+Dont kick a man when hes down
+Done to death
+Dressed to kill
+Early to bed and early to rise makes a man healthy wealthy and wise
+Every man Jack
+Every man for himself and the devil take the hindmost
+Every man has his price
+Family man
+Fate worse than death
+Fie foh and fum I smell the blood of a British man
+Fifteen men on a dead mans chest
+Fifty quid man
+Fight like a man
+Fine figure of a man
+For want of a nail the shoe was lost for want of a shoe the horse was lost and for want of a horse the man was lost
+Gallows humour
+Garbage Man
+Gentlemen we can rebuild him We have the technology
+Gimme gimme gimme a man after midnight
+Give a man a fish and you feed him for a day Teach a man to fish and you feed him for a lifetime
+Give a man enough rope and he will hang himself
+Give me liberty or give me death
+Go West young man
+Go in for the kill
+Go to see a man about a dog
+Grand old man
+Grim death
+Grip of death
+Group of death
+Guitar Man
+Half Man Half Amazing
+Hang on like grim death
+Hatchet man
+Hes a real nowhere man sitting in his nowhere land
+Heart to God hand to man
+His own man
+Hit man
+Hoochie Coochie Man
+I Wanna Be Your Man
+Id kill for a cup of tea
+Im Your Man
+Im not half the man I used to be
+If I tell you Ill have to kill you
+If looks could kill
+If man were meant to fly God would have lowered the fares
+In at the death
+In at the kill
+In the kingdom of the blind the one eyed man is king
+In the midst of life we are in death
+Into the valley of death rode the six hundred
+Iron Man
+Is your man getting enough
+It is a truth universally acknowledged that a single man in possession of a good fortune must be in want of a wife
+It is easier for a camel to go through the eye of a needle than for a rich man to enter into the kingdom of God
+It makes you feel like the man you are
+It takes a tough man to make a tender chicken
+Its A Mans World
+Its frothy man
+Its raining its pouring the old man is snoring
+Its that man again
+Kandi Man
+Kick a man when hes down
+Kill Bill
+Kill or be killed
+Kill or cure
+Kill stone dead
+Kill the fatted calf
+Kill the goose that lays the golden egg
+Kill time
+Kill time until time kills you
+Kill two birds with one stone
+Kill with kindness
+Kiss of death
+Ladies man
+Licence To Kill
+Licensed to kill
+Life after death
+Life and death struggle
+Like death warmed up
+Live as man and wife
+Living as man and wife
+Look death in the eye
+Low man on the totem pole
+Macho man
+Magic Man
+Make a man out of you
+Man In The Long Black Coa
+Man Of Constant Sorro
+Man about town
+Man and Superma
+Man and boy
+Man and wife
+Man bites dog
+Man date
+Man does not live by bread alone
+Man eater
+Man flu
+Man for all seasons
+Man hater
+Man is born free and is everywhere in chain
+Man of God
+Man of a Thousand Face
+Man of few words
+Man of his word
+Man of honour
+Man of letters
+Man of many parts
+Man of straw
+Man of the cloth
+Man of the hour
+Man of the moment
+Man on a mission
+Man on the spot
+Man overboard
+Man proposes God disposes
+Man the barricades
+Man to man
+Man up
+Man with a mission
+Man with a plan
+Mans best friend
+Mans inhumanity to man
+Manners maketh man
+Marked man
+Matter of life and death
+Memo Ma
+Merchant of death
+Middle man
+Misery acquaints a man with strange bedfellows
+Mr Tambourine Man
+Muscle man
+My old man
+Near death experience
+Nine tailors make a man
+No man can serve two masters
+No man is an island
+No mans land
+Not the ill wind which blows no man to good
+Nothing is certain but death and taxes
+Nowhere Man
+On death row
+On pain of death
+One man and his dog
+One mans meat is another mans poison
+One mans trash is another mans treasure
+One man one vote
+One small step for man one giant leap for mankind
+Out of the jaws of death
+Outside of a dog a book is mans best friend Inside of a dog its too dark to read
+Oxo gives a meal man appeal
+Pat a cake Pat a cake bakers man bake me a cake as fast as you can
+Plastic Man
+Play the white man
+Put the fear of death into someone
+Put to death
+Rich man poor man beggerman thief
+Right hand man
+Road kill
+Rocket Man
+Sadder and wiser man
+Save Your Kisses for Me
+Scared to death
+Second storey man
+Self made man
+Shoot to kill
+Sick to death of
+Silver fox
+Song and dance man
+Soul man
+Stan the Man
+Stand By Your Man
+Stick it to the man
+Strapping young man
+Straw man
+Street Fighting Man
+Stronger
+Take it like a man
+That which does not kill us makes us stronger
+The Adventure of the Creeping Man
+The Adventure of the Crooked Man
+The Angel of Death
+The Bionic Man
+The Bird Man of Alcatraz
+The Booze Man
+The Cheapest Man in the World
+The Elephant Man
+The Elephant Man
+The Executioner
+The Ginger Man
+The Hit Man
+The Hypochondriacs Guide To Life And Death
+The Invisible Man
+The Iron Man
+The Little Big Man
+The Living Death
+The Lonesome Death Of Hattie Carroll
+The Man Child
+The Man Who Knew Too Much
+The Man Who Mistook His Wife For A Hat And Other Clinical Tales
+The Man Who Shot Liberty Valance
+The Man Who Sold The World
+The Man Who Was Thursday
+The Man With The Golden Arm
+The Man With The Golden Gun
+The Man With Two Brains
+The Man from Mars
+The Man in Black
+The Man in the Iron Mask
+The Man of Many Moods
+The Man of a Thousand Voices
+The Man with the Child in His Eyes
+The Man with the Twisted Lip
+The Masque of the Red Death
+The Money Man
+The Mountie always gets his man
+The Old Man And The Sea
+The Potato Man
+The Quiet Man
+The Ragamuffin Ma
+The Rain Ma
+The Sick Man of Europ
+The Thinking Mans Crumpe
+The Third Ma
+The Wings of Ma
+The best a man can ge
+The bionic man
+The boy is father to the man
+The child is father of the ma
+The crumbs from a rich mans table
+The man from Del Monte says ye
+The man in black
+The man in the moon
+The man in the street
+The man on the Clapham omnibus
+The man who does not read has no advantage over the man who cannot read
+The man with the foolish grin is keeping perfectly still
+The man you love to hate
+The man the myth the legend
+The mark of a man
+The proper study of mankind is man
+The reports of my death are greatly exaggerated
+The right man for the job
+The sick man of Europe
+The valley of the shadow of death
+The wages of sin is death
+The way to a mans heart is through his stomach
+There was a crooked man and he walked a crooked mile
+Third man
+Thou shalt not kill
+Tickled to death
+Till Death Us Do Part
+Time and tide wait for no man
+Time to kill
+Time waits for no man
+To Kill A Mockingbird
+To boldly go where no man has gone before
+Until death do us part
+Van The Man
+Wall of death
+Want him to be more of a man Try being more of a woman
+What God has joined together let no man put asunder
+What a piece of work is man
+What do you give to a man who has everything
+What the well dressed man is wearing this year
+What you mean we white man
+When A Man Loves A Woman
+When a man youve never met before suddenly gives you flowers
+Where a man belongs
+Whispering Death
+White man speak with forked tongue
+White mans burden
+White mans watch
+White van man
+Who was that masked man
+Would you buy a used car from this man
+You can trust your car to the man who wears the star
+You cant cheat an honest man
+You cant keep a good man down
+You dirty old man
+You dont need a weather man to know which way the wind blows
+Youll be the death of me
+Youre a better man than I Gunga Din
+Youre the man
+Youve made an old man very happy

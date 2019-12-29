@@ -14,12 +14,13 @@ Goals:
   5. Make the text file an optional input.
   6. If no input file is given, default to the manual input. Otherwise, default to the randomized pick from the list.
 Notes:
-  > 
+  > Need to specify the use of the second (optional text file) parameter for myself and for the user.
 """
 
 #--------------------------------------------- Import Necessary Libraries --------------------------------------------#
 
 import sys
+import math
 import random
 import py_hangman_utils as phu
 
@@ -32,20 +33,34 @@ def main():
   places = ""
   guesses = list()
 
-  # Put all the words from the text file into a single array
-  word_arr = [line.rstrip('\n') for line in open("words.txt")]
-  print(word_arr, len(word_arr))
+  print("\nProgram Name:", sys.argv[0])
+  print("Number of command line arguments:", len(sys.argv))
+  print("The command line argument(s) are:", str(sys.argv))
 
-  # Generate random index and get the word from that index in lowercase
-  random_idx = random.randint(0, len(word_arr) - 1)
-  phrase = word_arr[random_idx].lower()
-  print(phrase)
+  print("\nWelcome to the game of HANGMAN!!!")
+
+  # This will initialize a 2 or more player game
+  if(len(sys.argv) == 1):
+    print("Player 1, please provide a word or phrase for Player 2 to guess.")
+    print("The word or phrase must not contain special characters or numbers but can be separated with spaces.\n")
+    phrase = input("Word or phrase to guess: ").upper()
+    l = len(phrase)
+    sys.stdout.write("\033[F" + '*'*(math.floor(l/2)) + "HANGMAN WORD OR PHRASE HAS BEEN SUBMITTED" + '*'*(math.floor(l/2)) + '\n')
+
+  # This will initialize a 1 player game
+  if(len(sys.argv) == 2):
+    # Put all the words from the text file into a single array
+    word_arr = [line.rstrip('\n') for line in open(sys.argv[1])]
+
+    # Generate random index and get the word from that index in lowercase
+    random_idx = random.randint(0, len(word_arr) - 1)
+    phrase = word_arr[random_idx].upper()
+    print(phrase)
 
   # Create a string of the same lenth of <phrase> out of just '_' for the <working> string
   for i in range(0, len(phrase)):
     if(phrase[i].isalpha()): places += '_'
     else: places += ' '
-  print(places)
 
   while(winner == False and state != losing_state):
     phu.draw_hangman(state) # draw the current state of the game after every guess
@@ -59,7 +74,7 @@ def main():
         if j == len(guesses): break
         print(',', end=" ")
     
-    cur_char = input("\nGuess a character: ") # get a character guess as input from the user
+    cur_char = input("\nGuess a character: ").upper() # get a character guess as input from the user
 
     # Validate user input
     if(cur_char.isalpha() == False or len(cur_char) != 1): # if not a valid character
