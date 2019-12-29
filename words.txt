@@ -1,49 +1,49 @@
-Awkward
-Bagpipes
-Banjo
-Bungler
-Croquet
-Crypt
-Dwarves
-Fervid
-Fishhook
-Fjord
-Gazebo
-Gypsy
-Haiku
-Haphazard
-Hyphen
-Ivory
-Jazzy
-Jiffy
-Jinx
-Jukebox
-Kayak
-Kiosk
-Klutz
-Memento
-Mystify
-Numbskull
-Ostracize
-Oxygen
-Pajama
-Phlegm
-Pixel
-Polka
-Quad
-Quip
-Rhythmic
-Rogue
-Sphinx
-Squawk
-Swivel
-Toady
-Twelfth
-Unzip
-Waxy
-Wildebeest
-Yacht
-Zealous
-Zigzag
-Zippy
-Zombie
+Awkward Awkward
+Bagpipes Bagpipes
+Banjo Banjo
+Bungler Awkward
+Croquet Bagpipes
+Crypt Banjo
+Dwarves Awkward
+Fervid Bagpipes
+Fishhook Banjo
+Fjord Awkward
+Gazebo Bagpipes
+Gypsy Banjo Awkward
+Haiku Bagpipes
+Haphazard Banjo
+Hyphen Awkward
+Ivory Bagpipes
+Jazzy Banjo
+Jiffy Awkward
+Jinx Bagpipes
+Jukebox Banjo
+Kayak Awkward
+Kiosk Bagpipes
+Klutz Banjo
+Memento Awkward
+Mystify Bagpipes
+Numbskull Banjo
+Ostracize Awkward
+Oxygen Bagpipes
+Pajama Banjo
+Phlegm Awkward
+Pixel Bagpipes
+Polka Banjo
+Quad Awkward
+Quip Bagpipes
+Rhythmic Banjo
+Rogue Awkward
+Sphinx Bagpipes
+Squawk Banjo
+Swivel Awkward
+Toady Bagpipes
+Twelfth Banjo
+Unzip Awkward
+Waxy Bagpipes
+Wildebeest Banjo
+Yacht Awkward
+Zealous Bagpipes
+Zigzag Banjo
+Zippy asdf
+Zombie asdf

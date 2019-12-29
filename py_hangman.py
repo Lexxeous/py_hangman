@@ -43,7 +43,8 @@ def main():
 
   # Create a string of the same lenth of <phrase> out of just '_' for the <working> string
   for i in range(0, len(phrase)):
-    places += '_'
+    if(phrase[i].isalpha()): places += '_'
+    else: places += ' '
   print(places)
 
   while(winner == False and state != losing_state):
@@ -87,7 +88,7 @@ def main():
   phu.draw_hangman(state)
 
   if(winner == True):
-    print("The word was \"" + places + "\".")
+    print("The phrase was \"" + places + "\".")
     print("CONGRATS! YOU WIN!")
   else:
     print("Sorry, You Lose...")
