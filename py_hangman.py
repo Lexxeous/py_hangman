@@ -30,17 +30,18 @@ def main():
   state = 0
   losing_state = 6
   places = ""
+  guesses = list()
 
-  # put all the words from the text file into a single array
+  # Put all the words from the text file into a single array
   word_arr = [line.rstrip('\n') for line in open("words.txt")]
   print(word_arr, len(word_arr))
 
-  # generate random index and get the word from that index in lowercase
+  # Generate random index and get the word from that index in lowercase
   random_idx = random.randint(0, len(word_arr) - 1)
   phrase = word_arr[random_idx].lower()
   print(phrase)
 
-  # create a string of the same lenth of <phrase> out of just '_' for the <working> string
+  # Create a string of the same lenth of <phrase> out of just '_' for the <working> string
   for i in range(0, len(phrase)):
     places += '_'
   print(places)
@@ -48,34 +49,51 @@ def main():
   while(winner == False and state != losing_state):
     phu.draw_hangman(state) # draw the current state of the game after every guess
     print("Current progress:", places) # print the player's current progress
-    cur_char = input("Guess a character: ") # get a character guess as input from the user
 
-    # validate user input
-    if(cur_char.isalpha() == False or len(cur_char) != 1):
+    # Print the list of previous guesses
+    print("Previous Guesses: ", end="")
+    if(len(guesses) > 0):
+      for j in range(0, len(guesses)):
+        print(guesses[j], end="")
+        if j == len(guesses): break
+        print(',', end=" ")
+    
+    cur_char = input("\nGuess a character: ") # get a character guess as input from the user
+
+    # Validate user input
+    if(cur_char.isalpha() == False or len(cur_char) != 1): # if not a valid character
       print("\"" + cur_char + "\"", "is not a valid alphabet character. Try again.")
       continue
+    else: # a valid character
+      if(cur_char in guesses): # if have guessed already
+        print("You have already guessed \"" + cur_char + "\". Try again.")
+        continue
+      else:
+        guesses.append(cur_char)
 
-    # collect potential progression tuple
+    # Collect potential progression tuple
     success_bool, phrase, places = phu.replace_all(phrase, places, cur_char)
 
-    # if no characters were found
+    # If no characters were found that matched the guess
     if(success_bool == False):
       state += 1 # if this gets incremented to 6, this will force the program out of the loop
 
-    # if all the underscores in <places> have been replaced with correct guesses
+    # If all the underscores in <places> have been replaced with correct guesses
     if(phu.blanks_gone(places)):
       winner = True # this will force the program out of the while loop
 
+
+  # Outside the main "while" loop
   phu.draw_hangman(state)
 
   if(winner == True):
-    print("Current progress:", places)
+    print("The word was \"" + places + "\".")
     print("CONGRATS! YOU WIN!")
   else:
     print("Sorry, You Lose...")
     
 
-
 main() # call the main function
 
     
+#---------------------------------------------------------------------------------------------------------------------#
